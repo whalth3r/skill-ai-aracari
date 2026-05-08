@@ -265,14 +265,15 @@
       <article class="card c3">
         <div class="card-head">
           <div class="num">3</div>
-          <h2>MCP (Model Context Protocol)</h2>
+          <h2>MCP & Skills</h2>
         </div>
         <div class="sep"></div>
         <ul class="bullets">
           <li>Crear un <b>servidor MCP propio</b>.</li>
-          <li><b>MCP vs Skills:</b> entender qué significa cada uno, cómo pueden coexistir, cuál es el enfoque de <b>MCP</b> como protocolo/capa de integración y cuál es el enfoque de <b>Skills</b> como capacidades o flujos especializados, y cómo aplicarlos correctamente según el caso.</li>
-          <li>Implementar herramientas (<b>tools</b>) en él.</li>
-          <li><b>Tool específica:</b> chat → traducir a SQL → consultar tabla → retornar datos en lenguaje natural.</li>
+          <li><b>MCP vs Skills:</b> entender que <b>MCP</b> es la capa/protocolo para exponer contexto, recursos y herramientas al modelo, mientras que <b>Skills</b> definen capacidades, instrucciones y flujos de uso para resolver tareas específicas.</li>
+          <li><b>Convivencia:</b> aprender cómo un <b>Skill</b> puede indicar cuándo usar un servidor MCP y cómo aprovechar correctamente las tools y recursos que ese MCP expone.</li>
+          <li>Implementar herramientas (<b>tools</b>) <b>dentro del servidor MCP</b>, no dentro del Skill.</li>
+          <li><b>Tool específica en el MCP:</b> desde un chat, traducir la intención a SQL, consultar una tabla y retornar los datos en lenguaje natural.</li>
         </ul>
         <div class="illus">
           <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
